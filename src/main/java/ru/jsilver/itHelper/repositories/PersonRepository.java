@@ -36,7 +36,7 @@ public class PersonRepository {
 
     public Person getOne(String login) {
         return ldapTemplate.search(query()
-                .base(userbase)
+                .base("OU=Users-AC,DC=ac,DC=dzm")
                 .where("objectclass").is("person")
                 .and("sAMAccountName").like("*" + login + "*"),
                 new PersonAttributesMapper()).stream().findFirst().orElseThrow();
