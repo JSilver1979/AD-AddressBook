@@ -11,10 +11,8 @@ public class Person {
     private String name;
     private String surname;
     private String patronymic;
-
     private String mail;
     private String dn;
-
     private String weight;
     private String birthMonth;
     private String birthDay;

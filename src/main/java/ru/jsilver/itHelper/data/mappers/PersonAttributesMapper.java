@@ -2,7 +2,6 @@ package ru.jsilver.itHelper.data.mappers;
 
 import org.springframework.ldap.core.AttributesMapper;
 import ru.jsilver.itHelper.data.Person;
-
 import javax.naming.NamingException;
 import javax.naming.directory.Attribute;
 import javax.naming.directory.Attributes;
